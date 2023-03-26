@@ -1,0 +1,5 @@
+Un'applicazione Web è pensata per la lettura da parte degli esseri umani, mentre un servizio
+ Web è pensato per la lettura da parte dei computer. L'applicazione Web è un'applicazione completa con
+ un'interfaccia utente grafica (GUI), tuttavia, i servizi Web non
+ dispongono necessariamente di un'interfaccia utente poiché viene utilizzata come
+  componente in un'applicazione.

@@ -36,5 +36,17 @@ public class Vector2D {
     public double sustraCoordinate(){
         return (x-y);
     }
+    public Vector2D alMultiplication(double k){
+        double a = k*x;
+        double b = k*y;
+        return new Vector2D(a,b);
+    }
 
+    @Override
+    public String toString() {
+        return "Vector2D{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }

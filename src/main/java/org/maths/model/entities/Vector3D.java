@@ -45,6 +45,20 @@ public class Vector3D {
     public double sustraCoordinate(){
         return (x-y-z);
     }
+    public Vector3D alMultiplication(double k){
+       double a = k*x;
+       double b = k*y;
+       double c = k*z;
+       return new Vector3D(a,b,c);
+    }
+    @Override
+    public String toString() {
+        return "Vector3D{" +
+                "x=" + x +
+                ", y=" + y +
+                ", z=" + z +
+                '}';
+    }
 
 
 }
